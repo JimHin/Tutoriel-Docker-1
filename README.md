@@ -23,7 +23,7 @@ exemple:
 docker run -i -t -p "80:80" -v ${PWD}/projetschool:/app mattrayner/lamp:latest 
 
 - ensuite vous scrutez votre terminal lors de l'installation.
-- vous y trouvez vos accés mysql dans un cartouche formé d'étoiles (le serveur mysql de l'image docker)
+- vous y trouvez vos accés mysql dans un cartouche - cf le jpg joint à ce dépôt (le serveur mysql de l'image docker)
 - Rendez-vous dans votre navigateur
 - tapez dans la barre url:  localhost/phpmyadmin  (si vous avez laissé 80:80 sinon il vous faudra préciser le port)
 - vous vous connecté avec les logs du terminal (le login c'est admin  et le mot de passe est autogénéré. 
