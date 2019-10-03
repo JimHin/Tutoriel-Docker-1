@@ -42,4 +42,4 @@ docker run -i -t -p "80:80" -v ${PWD}/projetschool:/app mattrayner/lamp:latest
  docker start ID du conteneur     (les 3 premiers caractères de l'ID suffisent d'ailleurs)
  docker stop ID du conteneur      (pareil les 3 premiers caractères de l'ID suffisent)
 
-PROCHAINE ETAPE DE MAITRISE DE DOCKER -----------> https://github.com/JimKrow/Le-Dockerfile
+PROCHAINE ETAPE DE MAITRISE: LE DOCKERFILE -----------> https://github.com/JimKrow/Tutoriel-Docker-2
