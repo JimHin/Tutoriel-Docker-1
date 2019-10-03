@@ -36,8 +36,10 @@ docker run -i -t -p "80:80" -v ${PWD}/projetschool:/app mattrayner/lamp:latest
  - vous executez et le tour est joué
  - Tapez localhost ou localhost:"port choisi" pour accéder à votre projet conteneurisé
  
-# docker ps -a       (pour visualiser les conteneurs crées avec leur ID , noms etc...)
-# docker start ID du conteneur    (les 3 premiers caractères de l'ID suffisent d'ailleurs)
-# docker stop ID du conteneur    (pareil les 3 premiers caractères de l'ID suffisent)
+ Dans votre terminal:
+ 
+ docker ps -a                     (pour visualiser les conteneurs crées avec leur ID , noms etc...)
+ docker start ID du conteneur     (les 3 premiers caractères de l'ID suffisent d'ailleurs)
+ docker stop ID du conteneur      (pareil les 3 premiers caractères de l'ID suffisent)
 
 PROCHAINE ETAPE DE MAITRISE DE DOCKER -----------> https://github.com/JimKrow/Redaction-du-DOCKERFILE
